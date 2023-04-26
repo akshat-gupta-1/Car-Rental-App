@@ -1,10 +1,12 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import Nav from './components/Nav';
 function App() {
   return (
     <Router>
-      <div className="container mx-auto">
-        <Navbar />
+      <div>
+        <Nav></Nav>
+        <HeroSection />
       </div>
     </Router>
   );

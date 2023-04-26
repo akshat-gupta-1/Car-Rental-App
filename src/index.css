@@ -4,7 +4,12 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url(../public/hero-background.png);
+  background-image: url(../public/img/hero-background.png);
   background-repeat: no-repeat;
   background-position: 100% 0%;
+}
+@media (max-width: 798px) {
+  body {
+    background-image: none;
+  }
 }
