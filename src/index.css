@@ -8,7 +8,7 @@ body {
   background-repeat: no-repeat;
   background-position: 100% 0%;
 }
-@media (max-width: 798px) {
+@media (max-width: 801px) {
   body {
     background-image: none;
   }

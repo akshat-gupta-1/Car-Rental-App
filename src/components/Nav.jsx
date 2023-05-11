@@ -30,7 +30,7 @@ function Nav() {
             <FaBars />
           </button>
           <button
-            className={`text-2xl absolute top-12 right-8 lg:hidden z-10 ${
+            className={`text-2xl fixed top-12 right-8 lg:hidden z-40 ${
               open || 'hidden'
             }`}
             onClick={() => open && setOpen(false)}
@@ -38,9 +38,14 @@ function Nav() {
             <FaTimes />
           </button>
         </div>
+        <div
+          className={`lg:hidden bg-white top-0 -left-full right-0 bottom-0 z-20 ${
+            open ? 'fixed ' : 'hidden'
+          }`}
+        />
         <ul
-          className={`flex flex-col items-center justify-center lg:flex-row lg:items-center lg:space-x-8 space-y-8 lg:space-y-0 absolute top-0 lg:static bg-white w-full h-screen lg:w-auto lg:h-auto lg:bg-transparent transition-all lg:transition-none duration-500 ease-in ${
-            open ? 'left-0' : '-left-full'
+          className={`flex flex-col items-center justify-center lg:flex-row lg:items-center lg:space-x-8 space-y-8 lg:space-y-0 fixed top-0 lg:static bg-white w-full h-screen lg:w-auto lg:h-auto lg:bg-transparent transition-all lg:transition-none duration-300 ease-in ${
+            open ? 'left-0 z-30' : '-left-full'
           }`}
         >
           {links.map((item) => (
