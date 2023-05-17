@@ -1,7 +1,7 @@
 import FormSelector from '../shared/FormSelector';
 import DateSelector from '../shared/DateSelector';
 import Button from '../shared/Button';
-function Registeration() {
+function Registeration({ forwardedRef }) {
   const carTypeOptions = [
     { value: 'select your option', label: 'Select Your Option' },
     {
@@ -14,7 +14,7 @@ function Registeration() {
     },
     {
       value: 'hyundai creta',
-      label: 'Hyndai Creta',
+      label: 'Hyundai Creta',
     },
     {
       value: 'toyota innova',
@@ -23,6 +23,10 @@ function Registeration() {
     {
       value: 'hyundai verna',
       label: 'Hyundai Verna',
+    },
+    {
+      value: 'volkswagen virtus',
+      label: 'Volkswagen Virtus',
     },
   ];
   const locationOptions = [
@@ -34,7 +38,10 @@ function Registeration() {
     { value: 'Rajouri Garden', label: 'Rajouri Garden' },
   ];
   return (
-    <div className="my-[17rem] container mx-auto xl:w-[70%] rounded-md shadow-lg shadow-gray-300 px-10 py-16">
+    <div
+      ref={forwardedRef}
+      className="mb-[10rem] container mx-auto xl:w-[70%] rounded-md shadow-lg shadow-gray-300 px-10 py-16 bg-white"
+    >
       <h4 className="font-bold text-darkBlue text-xl mb-6">Book a Car</h4>
       <div className="grid grid-cols-1 grid-flow-row gap-x-5 gap-y-4 ls:grid-cols-2 lg:grid-cols-3">
         <FormSelector

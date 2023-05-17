@@ -2,7 +2,7 @@ import { FaCheckCircle, FaAngleRight } from 'react-icons/fa';
 import Button from '../shared/Button';
 function HeroSection() {
   return (
-    <div className="my-[15rem] w-full sm:px-14 px-8 md:flex lg:mx-auto xl:w-[70%] md:container">
+    <div className="my-[10rem] w-full sm:px-14 px-8 md:flex lg:mx-auto xl:w-[70%] md:container">
       <div className="flex flex-col items-center justify-center space-y-6 md:max-w-md z-9">
         <h5 className="text-xl font-bold md:container md:text-left">
           Plan your trip now

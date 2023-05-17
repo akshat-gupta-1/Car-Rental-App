@@ -8,8 +8,36 @@ body {
   background-repeat: no-repeat;
   background-position: 100% 0%;
 }
+#cta {
+  background-image: url(../public/img/CtaImages/cta-background.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: -12rem 13rem;
+}
+#FAQ {
+  background-image: url(../public/img/Mini-copper.png);
+  background-repeat: no-repeat;
+  background-size: 700px 350px;
+  background-position: -12rem 5rem;
+}
 @media (max-width: 801px) {
   body {
     background-image: none;
   }
+}
+@media (max-width: 630px) {
+  #cta {
+    background-image: none;
+  }
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 17rem;
+}
+td {
+  font-size: 14px;
+  padding: 10px 20px;
+  text-align: center;
+  border: 1px solid black;
 }
