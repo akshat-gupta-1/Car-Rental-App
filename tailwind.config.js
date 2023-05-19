@@ -16,10 +16,12 @@ export default {
         lightGray: '#E5E5E5',
       },
       gridTemplateColumns: {
+        4: 'repeat(4,minmax(200px,300px))',
         custom: 'minmax(0,0.75fr) minmax(400px,1.5fr) minmax(0,0.75fr)',
         custom2: 'minmax(400px) minmax(0,0.75fr)',
         customcta: '120px 300px',
         customcta2: 'minmax(300px,1fr) minmax(300px,1fr)',
+        customContact: 'minmax(300px,1.25fr) minmax(400px,2fr)',
       },
     },
   },

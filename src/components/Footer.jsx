@@ -4,7 +4,7 @@ import { IconContext } from 'react-icons';
 import Button from '../shared/Button';
 function Footer() {
   return (
-    <div className="grid grid-cols-4 w-[70%] mx-auto container py-20">
+    <div className="grid lg:grid-cols-4 xl:w-[70%] mx-auto ls:grid-cols-2 grid-cols-1 container py-20 lg:gap-x-5 gap-x-12 gap-y-14 lg:gap-y-0 ">
       <IconContext.Provider value={{ className: 'inline font-bold mx-2' }}>
         <ul className="grid gap-y-3">
           <li className="text-2xl font-bold">
@@ -73,10 +73,10 @@ function Footer() {
         <li>Sat: 9:00AM - 5:00PM</li>
         <li>Sun: Closed</li>
       </ul>
-      <ul className="grid gap-3">
+      <ul className="space-y-3">
         <li className="font-bold text-2xl">SUBSCRIPTION</li>
         <li>Subscribe your Email address for latest news & updates.</li>
-        <li>
+        <li className="grid grid-cols-1">
           <input
             type="text"
             placeholder="Enter email address"

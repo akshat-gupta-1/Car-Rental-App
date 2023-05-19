@@ -10,6 +10,12 @@ import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import AppBanner from './components/AppBanner';
 import Footer from './components/Footer';
+import ScrollToTopButton from './components/ScrollToTopButton';
+import AboutPage from './components/AboutPage';
+import TestimonialsPage from './components/TestimonialsPage';
+import ContactPage from './components/ContactPage';
+import ModelPage from './components/ModelPage';
+import TeamPage from './components/TeamPage';
 import { useRef } from 'react';
 function App() {
   let childRef = useRef(null);
@@ -35,9 +41,15 @@ function App() {
                 <FAQ />
                 <AppBanner />
                 <Footer />
+                <ScrollToTopButton />
               </>
             }
           ></Route>
+          <Route path="/about" element={<AboutPage />}></Route>
+          <Route path="/testimonials" element={<TestimonialsPage />}></Route>
+          <Route path="/contact" element={<ContactPage />}></Route>
+          <Route path="/models" element={<ModelPage />}></Route>
+          <Route path="/ourteam" element={<TeamPage />}></Route>
         </Routes>
       </div>
     </Router>

@@ -4,9 +4,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url(../public/img/hero-background.png);
-  background-repeat: no-repeat;
-  background-position: 100% 0%;
 }
 #cta {
   background-image: url(../public/img/CtaImages/cta-background.png);
@@ -19,11 +16,6 @@ body {
   background-repeat: no-repeat;
   background-size: 700px 350px;
   background-position: -12rem 5rem;
-}
-@media (max-width: 801px) {
-  body {
-    background-image: none;
-  }
 }
 @media (max-width: 630px) {
   #cta {

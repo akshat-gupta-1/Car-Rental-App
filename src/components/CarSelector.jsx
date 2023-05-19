@@ -18,7 +18,7 @@ function CarSelector({ handleClick }) {
         <br />
         adventure or business trip
       </h6>
-      <div className="grid lg:grid-cols-custom my-10 xl:gap-x-20 md:grid-cols-custom2 md:gap-x-5 lg:gap-x-0 grid-cols-1 gap-y-10 lg:gap-y-0">
+      <div className="mx-3 grid lg:grid-cols-custom my-10 xl:gap-x-20 md:grid-cols-custom2 md:gap-x-5 lg:gap-x-0 grid-cols-1 gap-y-10 lg:gap-y-0">
         <div className="md:col-span-2 lg:col-span-1">
           {CarData.map((item) => {
             return (

@@ -16,7 +16,7 @@ function Nav() {
     <div className="w-full xl:w-[70%] lg:mx-auto container ">
       <div className="lg:flex py-8 px-6 items-center justify-between">
         <img
-          src="../../public/img/logo.jpg"
+          src="../../public/img/logo.png"
           alt="Car-rental-logo"
           className="h-14 w-auto"
         />
