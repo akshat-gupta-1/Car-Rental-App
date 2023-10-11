@@ -8,8 +8,8 @@ function ModelPage() {
     <div>
       <PageIntroBanner title={'Vehicle Models'} />
       <div className="mx-auto xl:w-[70%] container grid grid-cols-[340px] pt-[7rem] mb-[8rem] gap-x-6 gap-y-8 lg:grid-cols-[340px_340px_340px] md:grid-cols-[340px_340px] px-10 justify-center">
-        {CarData.map((item) => {
-          return <ModelPageCard {...item} />;
+        {CarData.map((item, index) => {
+          return <ModelPageCard {...item} key={index} />;
         })}
       </div>
       <PageBanner />

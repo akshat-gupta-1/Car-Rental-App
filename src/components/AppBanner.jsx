@@ -14,20 +14,20 @@ function AppBanner() {
             </p>
           </div>
           <img
-            src="/img/AppBanner/google.png"
+            src="/static/images/AppBanner/google.png"
             alt=""
             className="h-[70px] w-[220px]"
           />
           <img
-            src="/img/AppBanner/apple.png"
+            src="/static/images/AppBanner/apple.png"
             alt=""
             className="h-[70px] w-[220px]"
           />
         </div>
         <div className="hidden md:flex md:justify-end xl:justify-normal">
-          <img src="/img/AppBanner/logo-phone.png" alt="" />
+          <img src="/static/images/AppBanner/logo-phone.png" alt="" />
           <img
-            src="/img/AppBanner/phone-img.png"
+            src="/static/images/AppBanner/phone-img.png"
             alt=""
             className="hidden xl:block"
           />

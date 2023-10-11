@@ -6,13 +6,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 #cta {
-  background-image: url(../public/img/CtaImages/cta-background.png);
+  background-image: url(/static/images/CtaImages/cta-background.png);
   background-repeat: no-repeat;
   background-size: 150%;
   background-position: -12rem 13rem;
 }
 #FAQ {
-  background-image: url(../public/img/Mini-copper.png);
+  background-image: url(/static/images/Mini-copper.png);
   background-repeat: no-repeat;
   background-size: 700px 350px;
   background-position: -12rem 5rem;

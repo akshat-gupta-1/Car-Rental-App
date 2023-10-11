@@ -7,7 +7,7 @@ function TeamPage() {
       <PageIntroBanner title={'Our Team'} />
       <div className="mx-auto xl:w-[70%] container pt-[8rem] mb-[6rem] grid lg:grid-cols-[330px_330px_330px] md:grid-cols-[330px_330px] grid-cols-[330px] gap-8 justify-center px-4">
         <div className="border-2 border-gray-100 shadow-xl">
-          <img src="img/Team/team-1.jpg" alt="" />
+          <img src="/static/images/Team/team-1.jpg" alt="" />
           <h3 className="font-bold text-2xl text-center  mt-6 mb-2">
             Rishabh Verma
           </h3>
@@ -16,7 +16,7 @@ function TeamPage() {
           </h5>
         </div>
         <div className="border-2 border-gray-100 shadow-xl">
-          <img src="img/Team/team-2.jpg" alt="" />
+          <img src="/static/images/Team/team-2.jpg" alt="" />
           <h3 className="font-bold text-2xl text-center  mt-6 mb-2">
             Akash Gupta
           </h3>
@@ -25,7 +25,7 @@ function TeamPage() {
           </h5>
         </div>
         <div className="border-2 border-gray-100 shadow-xl">
-          <img src="img/Team/team-3.jpg" alt="" />
+          <img src="/static/images/Team/team-3.jpg" alt="" />
           <h3 className="font-bold text-2xl text-center  mt-6 mb-2">
             Aditi Sharma
           </h3>

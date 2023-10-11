@@ -8,7 +8,7 @@ function TestimonialCard({ review, name, id }) {
     >
       <p className="font-medium text-xl pb-5">{review}</p>
       <div className="self-end grid sm:grid-cols-[100px_1fr_70px] grid-cols-[100px_1fr]">
-        <img src="../../public/img/Testimonial/profile.png" alt="" />
+        <img src="/static/images/Testimonial/profile.png" alt="" />
         <div className="self-center">
           <h4 className="text-lg font-bold">{name}</h4>
           <h5 className="font-medium">Delhi</h5>

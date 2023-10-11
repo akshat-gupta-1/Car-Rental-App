@@ -5,7 +5,7 @@ function Cta() {
     <div id="cta" className="pb-20">
       <div className="mx-auto container xl:w-[70%] grid lg:grid-cols-customcta2 grid-cols-1 gap-y-8 lg:gap-y-2">
         <img
-          src="../../public/img/CtaImages/cta-image.png"
+          src="/static/images/CtaImages/cta-image.png"
           alt=""
           className="lg:col-span-2 justify-self-center"
         />
@@ -31,7 +31,7 @@ function Cta() {
         </div>
         <div className="grid gap-y-5 justify-self-center mx-4 sm:mx-0">
           <div className="grid sm:grid-cols-customcta grid-cols-1 justify-items-center">
-            <img src="../../public/img/CtaImages/county-drive.png" alt="" />
+            <img src="/static/images/CtaImages/county-drive.png" alt="" />
             <div>
               <h4 className="text-xl font-bold pb-1 lg:text-left text-center">
                 Cross Country Drive
@@ -43,7 +43,7 @@ function Cta() {
             </div>
           </div>
           <div className="grid sm:grid-cols-customcta  grid-cols-1 justify-items-center ">
-            <img src="../../public/img/CtaImages/rupee.png" alt="" />
+            <img src="/static/images/CtaImages/rupee.png" alt="" />
             <div>
               <h4 className="text-xl font-bold pb-1 lg:text-left text-center">
                 All Inclusive Pricing
@@ -55,7 +55,7 @@ function Cta() {
             </div>
           </div>
           <div className="grid sm:grid-cols-customcta grid-cols-1 justify-items-center">
-            <img src="../../public/img/CtaImages/exchange.png" alt="" />
+            <img src="/static/images/CtaImages/exchange.png" alt="" />
             <div>
               <h4 className="text-xl font-bold pb-1 lg:text-left text-center">
                 No Hidden Charges

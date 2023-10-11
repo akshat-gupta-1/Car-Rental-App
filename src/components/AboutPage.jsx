@@ -11,7 +11,7 @@ function AboutPage() {
       <PageIntroBanner title={'About'} />
       <div className="container mx-auto xl:w-[60%] grid lg:grid-cols-2 grid-cols-1 gap-8 px-6 mb-24 mt-[15rem]">
         <img
-          src="/img/about-page-image.jpg"
+          src="/static/images/about-page-image.jpg"
           alt=""
           className="justify-self-center"
         />

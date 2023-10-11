@@ -10,7 +10,7 @@ const CarData = [
     transmission: 'Manual',
     fuel: 'Petrol',
     price: '2500',
-    img: '../../public/img/CarImages/swift-dzire.png',
+    img: '/static/images/CarImages/swift-dzire.png',
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const CarData = [
     transmission: 'Manual',
     fuel: 'Petrol',
     price: '2750',
-    img: '../../public/img/CarImages/honda-amaze.png',
+    img: '/static/images/CarImages/honda-amaze.png',
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const CarData = [
     transmission: 'Automatic',
     fuel: 'Diesel',
     price: '5000',
-    img: '../../public/img/CarImages/hyundai-creta.png',
+    img: '/static/images/CarImages/hyundai-creta.png',
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const CarData = [
     transmission: 'Manual',
     fuel: 'Diesel',
     price: '7000',
-    img: '../../public/img/CarImages/toyota-innova.png',
+    img: '/static/images/CarImages/toyota-innova.png',
   },
   {
     id: 5,
@@ -62,7 +62,7 @@ const CarData = [
     transmission: 'Automatic',
     fuel: 'Petrol',
     price: '3500',
-    img: '../../public/img/CarImages/hyundai-verna.png',
+    img: '/static/images/CarImages/hyundai-verna.png',
   },
   {
     id: 6,
@@ -75,7 +75,7 @@ const CarData = [
     transmission: 'Automatic',
     fuel: 'Diesel',
     price: '4500',
-    img: '../../public/img/CarImages/tata-nexon.png',
+    img: '/static/images/CarImages/tata-nexon.png',
   },
 ];
 

@@ -10,7 +10,7 @@ function AppDetail() {
       <div className="grid grid-cols-1 gap-x-36 md:grid-cols-2 lg:grid-cols-3">
         <div className="flex flex-col justify-center items-center p-8">
           <img
-            src="/img/car-insurance.png"
+            src="/static/images/car-insurance.png"
             alt="verified car image"
             className="h-36 w-36"
           />
@@ -22,7 +22,7 @@ function AppDetail() {
         </div>
         <div className="flex flex-col justify-center items-center p-8">
           <img
-            src="/img/call-center-agent.png"
+            src="/static/images/call-center-agent.png"
             alt="operator image"
             className="h-36 w-36"
           />
@@ -34,7 +34,7 @@ function AppDetail() {
         </div>
         <div className="flex flex-col justify-center items-center p-8">
           <img
-            src="/img/car-drive.png"
+            src="/static/images/car-drive.png"
             alt="driving car image"
             className="h-36 w-36"
           />

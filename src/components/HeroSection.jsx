@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <div>
       <img
-        src="/img/hero-background.png"
+        src="/static/images/hero-background.png"
         alt=""
         className="absolute -z-10 top-0 right-0 hidden md:block"
       />
@@ -38,7 +38,7 @@ function HeroSection() {
         </div>
         <div>
           <img
-            src="../../public/img/hero-car.png"
+            src="/static/images/hero-car.png"
             className="hidden md:block xl:-translate-y-10 xl:w-[40%] lg:w-[550px] md:-translate-x-20 md:w-[450px] lg:translate-x-0 z-[-1] absolute"
           ></img>
         </div>
